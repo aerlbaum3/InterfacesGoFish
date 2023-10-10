@@ -1,0 +1,13 @@
+package Interfaces;
+
+public interface GoFishGame extends Game{
+	
+	void startGame();
+	
+	boolean isGameOver();
+	
+	void playTurn(player);
+	
+	void endGame();
+
+}
