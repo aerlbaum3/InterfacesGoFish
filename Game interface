@@ -1,0 +1,13 @@
+package Interfaces;
+
+public interface Game {
+	void startGame();
+	
+	boolean isGameOver();
+	
+	void playTurn(player);
+	
+	void endGame();
+	
+	
+}
