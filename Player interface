@@ -1,0 +1,14 @@
+package Interfaces;
+
+import java.util.ArrayList;
+
+public interface Player {
+	public String getName();
+	
+	public ArrayList<Card> getHand();
+	
+	public void addToHand(Card card);
+	
+	public void play();
+
+}
